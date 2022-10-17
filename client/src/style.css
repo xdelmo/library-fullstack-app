@@ -1,0 +1,82 @@
+.App {
+  min-height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+.delete {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  color: hwb(0 30% 0%);
+  border: 1px solid hwb(0 30% 0%);
+}
+
+.update {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  color: hwb(240 30% 0%);
+  border: 1px solid hwb(240 30% 0%);
+}
+
+button {
+  border-radius: 5px;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  min-width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+input:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.formButton {
+  border: none;
+  padding: 10px;
+  background-color: hwb(39 30% 0%);
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
